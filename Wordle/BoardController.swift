@@ -50,7 +50,12 @@ class BoardController: NSObject,
   // Tip: Take a look at how resetBoard is implemented above. The only difference is that you don't want to change the settings
   func resetBoardWithCurrentSettings() {
     // START YOUR CODE HERE
-    // ...
+    applyNumLettersSettings(with: SettingsManager.shared.settingsDictionary)
+    applyNumGuessesSettings(with: SettingsManager.shared.settingsDictionary)
+    applyThemeSettings(with: SettingsManager.shared.settingsDictionary)
+    applyIsAlienWordleSettings(with: SettingsManager.shared.settingsDictionary)
+    numTimesGuessed = 0
+    collectionView.reloadData()
     // END YOUR CODE HERE
   }
   
