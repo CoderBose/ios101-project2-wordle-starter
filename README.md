@@ -37,7 +37,8 @@ The following **additional** features are implemented:
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+No challenges as such, Optionals were an easy concept to grasp. I remember from class how its used in Networking concepts mostly, but would still like to practice more to understand its usage.
+Also, I did my first ever Loom embedding on Git. Contrary to what I was thinking, it was actually quite easy!
 
 ## License
 
